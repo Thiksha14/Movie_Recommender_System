@@ -1,5 +1,7 @@
 # Movie Recommender System
 
+![image](https://github.com/user-attachments/assets/4efb2467-4835-4459-9040-d1b0be70aa51)
+
 ## Overview
 
 The Movie Recommender System is a simple yet efficient tool that uses content-based filtering to recommend the top 5 movies related to the one selected by the user. By analyzing the attributes of the chosen movie, such as genres, keywords, and other metadata, the system identifies and suggests similar movies that align with the user's interests.
