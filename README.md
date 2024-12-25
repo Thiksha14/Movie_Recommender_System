@@ -1,5 +1,3 @@
-# Movie Recommender System
-
 ![image](https://github.com/user-attachments/assets/4efb2467-4835-4459-9040-d1b0be70aa51)
 
 ## Overview
