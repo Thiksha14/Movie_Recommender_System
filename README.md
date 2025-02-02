@@ -1,16 +1,21 @@
 ![image](https://github.com/user-attachments/assets/4efb2467-4835-4459-9040-d1b0be70aa51)
 
 ## Overview
-
-The Movie Recommender System is a simple yet efficient tool that uses content-based filtering to recommend the top 5 movies related to the one selected by the user. By analyzing the attributes of the chosen movie, such as genres, keywords, and other metadata, the system identifies and suggests similar movies that align with the user's interests.
+A content-based movie recommendation system built using Python, NLP, and machine learning, which suggests movies similar to the user’s input based on genres, cast, crew, and movie descriptions.
 
 ## Features
-- Content-Based Filtering: Recommends movies based on their similarity to the selected movie.
-- Top 5 Recommendations: Displays the most relevant movies tailored to the user's choice.
-- Interactive User Input: Allows users to pick a movie and get instant recommendations.
+🔹Content-Based Filtering – Uses movie metadata (overview, genres, cast, crew) for recommendations.
+🔹TF-IDF Vectorization & Cosine Similarity – Computes similarity between movies.
+🔹Efficient Preprocessing – Data cleaning, handling missing values, and text vectorization.
+
+Tech Stack
+🔹 Python (Pandas, NumPy, Scikit-learn)
+🔹 Natural Language Processing (TF-IDF, Cosine Similarity)
+🔹 Streamlit (for Web UI)
+🔹 TMDb Movie Dataset
 
 ## How It Works
-- The system processes the dataset of movies to extract relevant features such as genres, descriptions, or keywords.
-- A similarity matrix is generated using cosine similarity.
-- Based on the movie selected by the user, the system retrieves and ranks the most similar movies.
-- The top 5 movies are displayed as recommendations.
+🔹 The system processes the dataset of movies to extract relevant features such as genres, descriptions, or keywords.
+🔹 A similarity matrix is generated using cosine similarity.
+🔹 Based on the movie selected by the user, the system retrieves and ranks the most similar movies.
+🔹 The top 5 movies are displayed as recommendations.
